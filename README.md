@@ -130,6 +130,8 @@ Those kinds of databases provide powerful analytical built-in functions and also
 
 A perfect use case would be a tandem between **PostgreSQL** database and **ClickHouse** database, where **ClickHouse** is used as an indexer database on the data introduced in **PostgreSQL**, to offload analytical queries to **ClickHouse**
 
+Another good option is: https://www.citusdata.com/ which provides distributed sharded PostgreSQL database almost out of the box.
+
 ## Wrap up
 
 Traditional relational databases can provide enough tools to be able to handle an incredibly huge amount of data in a safe and reliable way, however, some of the engines are better than others. It's important to choose wisely, taking into account the amount of data you will be dealing with in the future or even now.
