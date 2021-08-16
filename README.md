@@ -48,9 +48,12 @@ type Response = {
 
 Have in mind, earliest date is `01-01-2015`.
 
-Performance on Mac Book - Docker and i5 2.0Ghz (very slow machine) on 10 mln transactions dataset, test run 30 seconds
+Performance on Mac Book Pro - Docker and i5 2.0Ghz (very slow machine) on 10 mln transactions dataset, test run 30 seconds
 
 ![performace stat](./doc/perf.png)
+
+Performance on Mac Book Pro - Docker and i9 2.4Ghz (multicore baseline) on 10 mln transactions dataset, test run 2minutes seconds
+![performace stat 2](./doc/perf2.png)
 
 # To load test
 
