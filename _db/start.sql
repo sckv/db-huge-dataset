@@ -30,7 +30,7 @@ FROM '/home/sqls/merchants.csv'
 DELIMITER ';'
 CSV HEADER;
 
-COPY transactions_n(id, user_id, date, amount, description, merchant_id)
+COPY transactions(id, user_id, date, amount, description, merchant_id)
 FROM '/home/sqls/transactions.csv'
 DELIMITER ';'
 CSV HEADER;
