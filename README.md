@@ -24,7 +24,8 @@ $ yarn install
 4. Open your database GUI
 5. Connect to `localhost:5432` with user `root` and password `root`
 6. Copy data from `./_db/start.sql` and execute all statements on `postgres` database (wait...)
-7. You are ready to test with Postman at url `http://localhost:3000/user/:userId/analytics/merchants?fromDate=<date>&toDate=<date>`
+7. Start with `yarn dev`
+8. You are ready to test with Postman at url `http://localhost:3000/user/:userId/analytics/merchants?fromDate=<date>&toDate=<date>`
 
 Response format
 
@@ -52,8 +53,8 @@ Performance on Mac Book Pro - Docker and i5 2.0Ghz (very slow machine) on 10 mln
 
 ![performace stat](./doc/perf.png)
 
-Performance on Mac Book Pro - Docker and i9 2.4Ghz (multicore baseline) on 10 mln transactions dataset, test run 2minutes seconds
-![performace stat 2](./doc/perf2.png)
+Performance on Mac Book Pro - Docker and i9 2.4Ghz (multicore baseline) on 10 mln transactions dataset, test run 2 minutes
+![performace stat 2](./doc/perf2.jpeg)
 
 # To load test
 
